@@ -1,5 +1,9 @@
 # 推箱子
-![man](images/man.png)
+
+<p align="center">
+  <img src="images/man.png" alt="man">
+</p>
+
 一个推箱子地图编辑器。使用A*启发式算法来求解特定地图的解法。
 
 ## 功能
