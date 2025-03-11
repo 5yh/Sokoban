@@ -1,46 +1,49 @@
-# 推箱子
+# Sokoban
 
 <p align="center">
   <img src="images/man.png" alt="man">
 </p>
 
-一个推箱子地图编辑器。使用A*启发式算法来求解特定地图的解法。
+[中文版本](READMECN.md)
 
-## 功能
+A Sokoban map editor. Uses the A* heuristic algorithm to solve specific maps.
 
-- 创建和编辑推箱子地图
-- 保存和加载地图
-- 使用A*算法自动求解地图
+## Features
 
-## 使用说明
+- Create and edit Sokoban maps
+- Save and load maps
+- Automatically solve maps using the A* algorithm
 
-1. 启动程序后，使用界面上的控件创建或编辑地图。
-2. 使用“保存”按钮保存当前地图，使用“加载”按钮加载之前保存的地图。
-3. 使用“求解”按钮运行A*算法，自动求解当前地图。
+## Instructions
 
-## 地图元素
+1. After starting the program, use the interface controls to create or edit maps.
+2. Use the "Save" button to save the current map, and the "Load" button to load a previously saved map.
+3. Use the "Solve" button to run the A* algorithm and automatically solve the current map.
 
-- **砖块**：不可移动的障碍物。
-- **箱子**：需要被推到目标位置的物体。
-- **目标**：箱子需要被推到的位置。
-- **人物**：玩家控制的角色，可以推动箱子。
+## Map Elements
 
-## 示例
+- **Brick**: An immovable obstacle.
+- **Box**: An object that needs to be pushed to the target position.
+- **Target**: The position where the box needs to be pushed.
+- **Character**: The player-controlled character that can push boxes.
 
-![项目示例](images/example.png)
+## Example
 
-## 运行环境
+![Project Example](images/example.png)
 
-- Windows操作系统
-- Visual Studio 2019或更高版本
+## Environment
 
-## 构建步骤
+- Windows operating system
+- Visual Studio 2019 or later
 
-1. 克隆或下载此项目。
-2. 使用Visual Studio打开`Project3.sln`解决方案文件。
-3. 选择Debug或Release配置，并选择x64平台。
-4. 构建解决方案并运行。
+## Build Steps
 
-## 许可证
+1. Clone or download this project.
+2. Open the `Project3.sln` solution file with Visual Studio.
+3. Select the Debug or Release configuration, and choose the x64 platform.
+4. Build the solution and run.
 
-此项目使用MIT许可证。详见LICENSE文件。
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
